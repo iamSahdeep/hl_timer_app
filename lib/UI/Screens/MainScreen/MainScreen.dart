@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:hl_timer_app/CORE/Notifiers/TimersNotifier.dart';
+import 'package:hl_timer_app/UI/Screens/AddTimerScreen.dart';
 import 'package:hl_timer_app/UI/Widgets/TimerListItem.dart';
 import 'package:provider/provider.dart';
 
@@ -16,6 +17,18 @@ class MainScreen extends StatelessWidget {
               "Timer App",
               style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
             ),
+          ),
+          floatingActionButton: FloatingActionButton(
+            child: Icon(Icons.add),
+            onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                    builder: (context) => AddTimerScreen(
+                          notifier: notifier,
+                        )),
+              );
+            },
           ),
           body: notifier.allTimers.isEmpty
               ? Center(

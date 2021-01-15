@@ -3,9 +3,9 @@ import 'package:flutter/widgets.dart';
 import 'package:hl_timer_app/CORE/Database/DatabaseManager.dart';
 import 'package:hl_timer_app/UI/Screens/MainScreen/MainScreen.dart';
 
-void main() {
+void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  DatabaseManager.instance.init();
+  await DatabaseManager.instance.init();
   runApp(MyApp());
 }
 
