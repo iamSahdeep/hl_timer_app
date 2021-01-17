@@ -1,16 +1,16 @@
 # hl_timer_app
+A timer application with basic functionality. Some bugs are there and sometimes timer in list and timer in task screen does not sync.
 
-A new Flutter application.
+## APK 
+[Download Sample Apk](https://github.com/iamSahdeep/hl_timer_app/blob/master/assets/app-release.apk)
 
-## Getting Started
+## Some Screenshots
+<p align="center">
+<img src="assets/1.jpeg" width="220" height="440"><img
+src="assets/2.jpeg" width="220" height="440"><img
+src="assets/3.jpeg" width="220" height="440"><img
+src="assets/4.jpeg" width="220" height="440"><img
+src="assets/5.jpeg" width="220" height="440"><img
+src="assets/6.jpeg" width="220" height="440">
+</p>
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
