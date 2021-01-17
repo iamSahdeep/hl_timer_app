@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:hl_timer_app/CORE/Database/DatabaseManager.dart';
-import 'package:hl_timer_app/UI/Screens/MainScreen/MainScreen.dart';
+
+import 'file:///C:/FlutterProjects/hl_timer_app/lib/UI/Screens/MainScreen.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();

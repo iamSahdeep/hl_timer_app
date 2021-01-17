@@ -2,11 +2,19 @@ class TimerModel {
   final int id;
   final String title;
   final String description;
-  final int timeLeft;
-  final int status;
+  int timeLeft;
+  int status;
 
   TimerModel(
       {this.id, this.title, this.description, this.timeLeft, this.status});
+
+  setTimeLeft(int t) {
+    timeLeft = t;
+  }
+
+  setStatus(int s) {
+    status = s;
+  }
 
   Map<String, dynamic> toMap() {
     return {
